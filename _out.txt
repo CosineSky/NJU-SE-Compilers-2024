@@ -1,0 +1,725 @@
+  .data
+x:
+  .word 1
+  .data
+y:
+  .word 2
+  .data
+z:
+  .word 3
+  .data
+a:
+  .word 4
+  .data
+b:
+  .word 5
+  .data
+c:
+  .word 6
+  .data
+d:
+  .word 7
+  .data
+e:
+  .word 8
+  .data
+f:
+  .word 9
+  .data
+g:
+  .word 10
+  .data
+h:
+  .word 11
+  .data
+i:
+  .word 12
+  .data
+j:
+  .word 13
+  .data
+k:
+  .word 14
+  .data
+l:
+  .word 15
+  .data
+m:
+  .word 16
+  .data
+n:
+  .word 17
+  .data
+o:
+  .word 18
+  .data
+p:
+  .word 19
+  .data
+q:
+  .word 20
+  .text
+  .globl main
+main:
+  addi sp, sp, -1024
+mainEntry:
+  li t0, 1
+  mv t2, t0 
+  li t0, 2
+  mv t3, t0 
+  li t0, 3
+  mv t4, t0 
+  li t0, 4
+  mv t5, t0 
+  li t0, 5
+  mv t6, t0 
+  li t0, 6
+  mv a0, t0 
+  li t0, 7
+  mv a1, t0 
+  li t0, 8
+  mv a2, t0 
+  li t0, 9
+  mv a3, t0 
+  li t0, 10
+  mv a4, t0 
+  li t0, 11
+  mv a5, t0 
+  li t0, 12
+  mv a6, t0 
+  li t0, 13
+  mv s0, t0 
+  li t0, 14
+  mv s1, t0 
+  li t0, 15
+  mv s2, t0 
+  li t0, 16
+  mv s3, t0 
+  li t0, 17
+  mv s4, t0 
+  li t0, 18
+  mv s5, t0 
+  li t0, 19
+  mv s6, t0 
+  li t0, 20
+  mv s7, t0 
+  la t0, x
+  lw t0, 0(t0)
+  mv s8, t0 
+  mv t0, s8 
+  li t1, 1
+  add t0, t0, t1
+  mv s9, t0 
+  mv s9, t0 
+  la t1, x
+  sw t0, 0(t1)
+  la t0, y
+  lw t0, 0(t0)
+  mv s8, t0 
+  mv t0, s8 
+  li t1, 2
+  add t0, t0, t1
+  mv s9, t0 
+  mv s9, t0 
+  la t1, y
+  sw t0, 0(t1)
+  la t0, z
+  lw t0, 0(t0)
+  mv s8, t0 
+  mv t0, s8 
+  li t1, 3
+  add t0, t0, t1
+  mv s9, t0 
+  mv s9, t0 
+  la t1, z
+  sw t0, 0(t1)
+  la t0, a
+  lw t0, 0(t0)
+  mv s8, t0 
+  mv t0, s8 
+  li t1, 4
+  add t0, t0, t1
+  mv s9, t0 
+  mv s9, t0 
+  la t1, a
+  sw t0, 0(t1)
+  la t0, b
+  lw t0, 0(t0)
+  mv s8, t0 
+  mv t0, s8 
+  li t1, 5
+  add t0, t0, t1
+  mv s9, t0 
+  mv s9, t0 
+  la t1, b
+  sw t0, 0(t1)
+  la t0, c
+  lw t0, 0(t0)
+  mv s8, t0 
+  mv t0, s8 
+  li t1, 6
+  add t0, t0, t1
+  mv s9, t0 
+  mv s9, t0 
+  la t1, c
+  sw t0, 0(t1)
+  la t0, d
+  lw t0, 0(t0)
+  mv s8, t0 
+  mv t0, s8 
+  li t1, 7
+  add t0, t0, t1
+  mv s9, t0 
+  mv s9, t0 
+  la t1, d
+  sw t0, 0(t1)
+  la t0, e
+  lw t0, 0(t0)
+  mv s8, t0 
+  mv t0, s8 
+  li t1, 8
+  add t0, t0, t1
+  mv s9, t0 
+  mv s9, t0 
+  la t1, e
+  sw t0, 0(t1)
+  la t0, f
+  lw t0, 0(t0)
+  mv s8, t0 
+  mv t0, s8 
+  li t1, 9
+  add t0, t0, t1
+  mv s9, t0 
+  mv s9, t0 
+  la t1, f
+  sw t0, 0(t1)
+  la t0, g
+  lw t0, 0(t0)
+  mv s8, t0 
+  mv t0, s8 
+  li t1, 10
+  add t0, t0, t1
+  mv s9, t0 
+  mv s9, t0 
+  la t1, g
+  sw t0, 0(t1)
+  la t0, h
+  lw t0, 0(t0)
+  mv s8, t0 
+  mv t0, s8 
+  li t1, 11
+  add t0, t0, t1
+  mv s9, t0 
+  mv s9, t0 
+  la t1, h
+  sw t0, 0(t1)
+  la t0, i
+  lw t0, 0(t0)
+  mv s8, t0 
+  mv t0, s8 
+  li t1, 12
+  add t0, t0, t1
+  mv s9, t0 
+  mv s9, t0 
+  la t1, i
+  sw t0, 0(t1)
+  la t0, j
+  lw t0, 0(t0)
+  mv s8, t0 
+  mv t0, s8 
+  li t1, 13
+  add t0, t0, t1
+  mv s9, t0 
+  mv s9, t0 
+  la t1, j
+  sw t0, 0(t1)
+  la t0, k
+  lw t0, 0(t0)
+  mv s8, t0 
+  mv t0, s8 
+  li t1, 14
+  add t0, t0, t1
+  mv s9, t0 
+  mv s9, t0 
+  la t1, k
+  sw t0, 0(t1)
+  la t0, l
+  lw t0, 0(t0)
+  mv s8, t0 
+  mv t0, s8 
+  li t1, 15
+  add t0, t0, t1
+  mv s9, t0 
+  mv s9, t0 
+  la t1, l
+  sw t0, 0(t1)
+  la t0, m
+  lw t0, 0(t0)
+  mv s8, t0 
+  mv t0, s8 
+  li t1, 16
+  add t0, t0, t1
+  mv s9, t0 
+  mv s9, t0 
+  la t1, m
+  sw t0, 0(t1)
+  la t0, n
+  lw t0, 0(t0)
+  mv s8, t0 
+  mv t0, s8 
+  li t1, 17
+  add t0, t0, t1
+  mv s9, t0 
+  mv s9, t0 
+  la t1, n
+  sw t0, 0(t1)
+  la t0, o
+  lw t0, 0(t0)
+  mv s8, t0 
+  mv t0, s8 
+  li t1, 18
+  add t0, t0, t1
+  mv s9, t0 
+  mv s9, t0 
+  la t1, o
+  sw t0, 0(t1)
+  la t0, p
+  lw t0, 0(t0)
+  mv s8, t0 
+  mv t0, s8 
+  li t1, 19
+  add t0, t0, t1
+  mv s9, t0 
+  mv s9, t0 
+  la t1, p
+  sw t0, 0(t1)
+  la t0, q
+  lw t0, 0(t0)
+  mv s8, t0 
+  mv t0, s8 
+  li t1, 20
+  add t0, t0, t1
+  mv s9, t0 
+  mv s9, t0 
+  la t1, q
+  sw t0, 0(t1)
+  mv t0, t2 
+  mv s8, t0 
+  mv t0, s8 
+  li t1, 2
+  mul t0, t0, t1
+  mv s9, t0 
+  mv t0, s9 
+  mv t2, t0 
+  mv t0, t3 
+  mv s8, t0 
+  mv t0, s8 
+  li t1, 2
+  mul t0, t0, t1
+  mv s9, t0 
+  mv t0, s9 
+  mv t3, t0 
+  mv t0, t4 
+  mv s8, t0 
+  mv t0, s8 
+  li t1, 2
+  mul t0, t0, t1
+  mv s9, t0 
+  mv t0, s9 
+  mv t4, t0 
+  mv t0, t5 
+  mv s8, t0 
+  mv t0, s8 
+  li t1, 2
+  mul t0, t0, t1
+  mv s9, t0 
+  mv t0, s9 
+  mv t5, t0 
+  mv t0, t6 
+  mv s8, t0 
+  mv t0, s8 
+  li t1, 2
+  mul t0, t0, t1
+  mv s9, t0 
+  mv t0, s9 
+  mv t6, t0 
+  mv t0, a0 
+  mv s8, t0 
+  mv t0, s8 
+  li t1, 2
+  mul t0, t0, t1
+  mv s9, t0 
+  mv t0, s9 
+  mv a0, t0 
+  mv t0, a1 
+  mv s8, t0 
+  mv t0, s8 
+  li t1, 2
+  mul t0, t0, t1
+  mv s9, t0 
+  mv t0, s9 
+  mv a1, t0 
+  mv t0, a2 
+  mv s8, t0 
+  mv t0, s8 
+  li t1, 2
+  mul t0, t0, t1
+  mv s9, t0 
+  mv t0, s9 
+  mv a2, t0 
+  mv t0, a3 
+  mv s8, t0 
+  mv t0, s8 
+  li t1, 2
+  mul t0, t0, t1
+  mv s9, t0 
+  mv t0, s9 
+  mv a3, t0 
+  mv t0, a4 
+  mv s8, t0 
+  mv t0, s8 
+  li t1, 2
+  mul t0, t0, t1
+  mv s9, t0 
+  mv t0, s9 
+  mv a4, t0 
+  mv t0, a5 
+  mv s8, t0 
+  mv t0, s8 
+  li t1, 2
+  mul t0, t0, t1
+  mv s9, t0 
+  mv t0, s9 
+  mv a5, t0 
+  mv t0, a6 
+  mv s8, t0 
+  mv t0, s8 
+  li t1, 2
+  mul t0, t0, t1
+  mv s9, t0 
+  mv t0, s9 
+  mv a6, t0 
+  mv t0, s0 
+  mv s8, t0 
+  mv t0, s8 
+  li t1, 2
+  mul t0, t0, t1
+  mv s9, t0 
+  mv t0, s9 
+  mv s0, t0 
+  mv t0, s1 
+  mv s8, t0 
+  mv t0, s8 
+  li t1, 2
+  mul t0, t0, t1
+  mv s9, t0 
+  mv t0, s9 
+  mv s1, t0 
+  mv t0, s2 
+  mv s8, t0 
+  mv t0, s8 
+  li t1, 2
+  mul t0, t0, t1
+  mv s9, t0 
+  mv t0, s9 
+  mv s2, t0 
+  mv t0, s3 
+  mv s8, t0 
+  mv t0, s8 
+  li t1, 2
+  mul t0, t0, t1
+  mv s9, t0 
+  mv t0, s9 
+  mv s3, t0 
+  mv t0, s4 
+  mv s8, t0 
+  mv t0, s8 
+  li t1, 2
+  mul t0, t0, t1
+  mv s9, t0 
+  mv t0, s9 
+  mv s4, t0 
+  mv t0, s5 
+  mv s8, t0 
+  mv t0, s8 
+  li t1, 2
+  mul t0, t0, t1
+  mv s9, t0 
+  mv t0, s9 
+  mv s5, t0 
+  mv t0, s6 
+  mv s8, t0 
+  mv t0, s8 
+  li t1, 2
+  mul t0, t0, t1
+  mv s9, t0 
+  mv t0, s9 
+  mv s6, t0 
+  mv t0, s7 
+  mv s8, t0 
+  mv t0, s8 
+  li t1, 2
+  mul t0, t0, t1
+  mv s9, t0 
+  mv t0, s9 
+  mv s7, t0 
+  mv t0, t2 
+  mv s9, t0 
+  mv t0, t3 
+  mv t2, t0 
+  mv t0, s9 
+  mv t1, t2 
+  add t0, t0, t1
+  mv t3, t0 
+  mv t0, t4 
+  mv t2, t0 
+  mv t0, t3 
+  mv t1, t2 
+  add t0, t0, t1
+  mv t4, t0 
+  mv t0, t5 
+  mv t2, t0 
+  mv t0, t4 
+  mv t1, t2 
+  add t0, t0, t1
+  mv t3, t0 
+  mv t0, t6 
+  mv t2, t0 
+  mv t0, t3 
+  mv t1, t2 
+  add t0, t0, t1
+  mv t4, t0 
+  mv t0, a0 
+  mv t2, t0 
+  mv t0, t4 
+  mv t1, t2 
+  add t0, t0, t1
+  mv t3, t0 
+  mv t0, a1 
+  mv t2, t0 
+  mv t0, t3 
+  mv t1, t2 
+  add t0, t0, t1
+  mv t4, t0 
+  mv t0, a2 
+  mv t2, t0 
+  mv t0, t4 
+  mv t1, t2 
+  add t0, t0, t1
+  mv t3, t0 
+  mv t0, a3 
+  mv t2, t0 
+  mv t0, t3 
+  mv t1, t2 
+  add t0, t0, t1
+  mv t4, t0 
+  mv t0, a4 
+  mv t2, t0 
+  mv t0, t4 
+  mv t1, t2 
+  add t0, t0, t1
+  mv t3, t0 
+  mv t0, a5 
+  mv t2, t0 
+  mv t0, t3 
+  mv t1, t2 
+  add t0, t0, t1
+  mv t4, t0 
+  mv t0, a6 
+  mv t2, t0 
+  mv t0, t4 
+  mv t1, t2 
+  add t0, t0, t1
+  mv t3, t0 
+  mv t0, s0 
+  mv t2, t0 
+  mv t0, t3 
+  mv t1, t2 
+  add t0, t0, t1
+  mv t4, t0 
+  mv t0, s1 
+  mv t2, t0 
+  mv t0, t4 
+  mv t1, t2 
+  add t0, t0, t1
+  mv t3, t0 
+  mv t0, s2 
+  mv t2, t0 
+  mv t0, t3 
+  mv t1, t2 
+  add t0, t0, t1
+  mv t4, t0 
+  mv t0, s3 
+  mv t2, t0 
+  mv t0, t4 
+  mv t1, t2 
+  add t0, t0, t1
+  mv t3, t0 
+  mv t0, s4 
+  mv t2, t0 
+  mv t0, t3 
+  mv t1, t2 
+  add t0, t0, t1
+  mv t4, t0 
+  mv t0, s5 
+  mv t2, t0 
+  mv t0, t4 
+  mv t1, t2 
+  add t0, t0, t1
+  mv t3, t0 
+  mv t0, s6 
+  mv t2, t0 
+  mv t0, t3 
+  mv t1, t2 
+  add t0, t0, t1
+  mv t4, t0 
+  mv t0, s7 
+  mv t2, t0 
+  mv t0, t4 
+  mv t1, t2 
+  add t0, t0, t1
+  mv t3, t0 
+  la t0, x
+  lw t0, 0(t0)
+  mv t2, t0 
+  mv t0, t3 
+  mv t1, t2 
+  add t0, t0, t1
+  mv t4, t0 
+  la t0, y
+  lw t0, 0(t0)
+  mv t2, t0 
+  mv t0, t4 
+  mv t1, t2 
+  add t0, t0, t1
+  mv t3, t0 
+  la t0, z
+  lw t0, 0(t0)
+  mv t2, t0 
+  mv t0, t3 
+  mv t1, t2 
+  add t0, t0, t1
+  mv t4, t0 
+  la t0, a
+  lw t0, 0(t0)
+  mv t2, t0 
+  mv t0, t4 
+  mv t1, t2 
+  add t0, t0, t1
+  mv t3, t0 
+  la t0, b
+  lw t0, 0(t0)
+  mv t2, t0 
+  mv t0, t3 
+  mv t1, t2 
+  add t0, t0, t1
+  mv t4, t0 
+  la t0, c
+  lw t0, 0(t0)
+  mv t2, t0 
+  mv t0, t4 
+  mv t1, t2 
+  add t0, t0, t1
+  mv t3, t0 
+  la t0, d
+  lw t0, 0(t0)
+  mv t2, t0 
+  mv t0, t3 
+  mv t1, t2 
+  add t0, t0, t1
+  mv t4, t0 
+  la t0, e
+  lw t0, 0(t0)
+  mv t2, t0 
+  mv t0, t4 
+  mv t1, t2 
+  add t0, t0, t1
+  mv t3, t0 
+  la t0, f
+  lw t0, 0(t0)
+  mv t2, t0 
+  mv t0, t3 
+  mv t1, t2 
+  add t0, t0, t1
+  mv t4, t0 
+  la t0, g
+  lw t0, 0(t0)
+  mv t2, t0 
+  mv t0, t4 
+  mv t1, t2 
+  add t0, t0, t1
+  mv t3, t0 
+  la t0, h
+  lw t0, 0(t0)
+  mv t2, t0 
+  mv t0, t3 
+  mv t1, t2 
+  add t0, t0, t1
+  mv t4, t0 
+  la t0, i
+  lw t0, 0(t0)
+  mv t2, t0 
+  mv t0, t4 
+  mv t1, t2 
+  add t0, t0, t1
+  mv t3, t0 
+  la t0, j
+  lw t0, 0(t0)
+  mv t2, t0 
+  mv t0, t3 
+  mv t1, t2 
+  add t0, t0, t1
+  mv t4, t0 
+  la t0, k
+  lw t0, 0(t0)
+  mv t2, t0 
+  mv t0, t4 
+  mv t1, t2 
+  add t0, t0, t1
+  mv t3, t0 
+  la t0, l
+  lw t0, 0(t0)
+  mv t2, t0 
+  mv t0, t3 
+  mv t1, t2 
+  add t0, t0, t1
+  mv t4, t0 
+  la t0, m
+  lw t0, 0(t0)
+  mv t2, t0 
+  mv t0, t4 
+  mv t1, t2 
+  add t0, t0, t1
+  mv t3, t0 
+  la t0, n
+  lw t0, 0(t0)
+  mv t2, t0 
+  mv t0, t3 
+  mv t1, t2 
+  add t0, t0, t1
+  mv t4, t0 
+  la t0, o
+  lw t0, 0(t0)
+  mv t2, t0 
+  mv t0, t4 
+  mv t1, t2 
+  add t0, t0, t1
+  mv t3, t0 
+  la t0, p
+  lw t0, 0(t0)
+  mv t2, t0 
+  mv t0, t3 
+  mv t1, t2 
+  add t0, t0, t1
+  mv t4, t0 
+  la t0, q
+  lw t0, 0(t0)
+  mv t2, t0 
+  mv t0, t4 
+  mv t1, t2 
+  add t0, t0, t1
+  mv t2, t0 
+  mv a0, t2 
+  addi sp, sp, 1024
+  li a7, 93
+  ecall
